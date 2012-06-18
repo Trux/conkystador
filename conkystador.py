@@ -1,15 +1,10 @@
 from flask import Flask, render_template
-from flaskext.wtf import Form, TextField, Required
-
 
 app = Flask(__name__)
 
 @app.route('/')
 def conkystador():
-	return render_template('conkystador.html', name='wtf is that name')
-	 
-    
-
+	return render_template('conkystador.html')    
 
 
 @app.route('/42')
