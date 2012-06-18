@@ -1,4 +1,135 @@
 body{
-	color: gray;
-	background: white;
+	
+	background: #03A688;
+	font-family: 'Cantata One', serif;
+	margin: 0 auto;
+
+}
+
+
+h1,h2{
+	color: white;
+}
+
+h1,h2{
+	margin-left: 30px;
+
+}
+#form2,#form3, #form4, #Text, #previous{
+	display: none;
+}
+
+label{
+	margin-bottom: 550px;
+	color: white;
+}
+
+form{
+	width: 500px; 
+	padding: 15px 25px; 
+	margin: 0 auto; 
+	background-color: #385752;
+	-moz-border-radius:  20px; 
+	-webkit-border-radius:  20px; 
+	border-radius: 20px; 
+	overflow: hidden;
+}
+
+fieldset{
+	border:none;
+	align: center;
+	font-family: 'Cantata One', serif;	
+}
+
+#result {
+	width: 500px; 
+	padding: 15px 25px; 
+	margin-top: 50px;
+	margin-left: 30%; 
+	background-color: white;
+	-moz-border-radius:  20px; 
+	-webkit-border-radius:  20px; 
+	border-radius: 20px; 
+	overflow: hidden;
+	align: center;
+}
+
+input{  
+     
+    text-shadow: 0px 1px 0px #fff;  
+    outline: none;  
+    background: -webkit-gradient(linear, left top, left bottombottom, from(#bcbcbe), to(#ffffff));  
+    background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff);  
+    -webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    border: 1px solid #717171;  
+	margin: 0 auto; 
+}
+
+ #next1, #next2{
+	display: block;
+	margin-top: 50px;
+	margin-left: 45%; 
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	
+	background: -moz-linear-gradient(
+		top,
+		#3be610 0%,
+		#248f27);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#3be610),
+		to(#248f27));
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #248f27;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+
+}
+
+#previous{
+	margin-top: 50px;
+	margin-left: 45%; 
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	
+	background: -moz-linear-gradient(
+		top,
+		#3be610 0%,
+		#248f27);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#3be610),
+		to(#248f27));
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #248f27;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+
 }

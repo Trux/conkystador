@@ -59,9 +59,7 @@ $(document).ready(function()
 	 	for (i=0; i<n; i++)
 	 	
  		{
- 		value = String(tabInput[i].value);
- 		alert(value);
- 		
+ 		value = String(tabInput[i].value); 			
  		$("#result").append(value+'\n');	
 
 	 	}
