@@ -1,2 +1,34 @@
-<!doctype html>
-<title>Conkystador</title>
+<!DOCTYPE html><head><title>Conkystador</title><link rel="shortcut icon" href="conkystador-logo.png"><link rel=stylesheet type="text/css" href="style.css"><body><h1>Quick and easy .conkyrc generator</h1>
+
+
+<fieldset>
+<div id='form1'>
+<form>
+<dl><dt><label>largeur de la bordure (en px)</label></dt><dd><input required="required" type='number' name=border_margin></dd></dl><dl><dt><label>largeur des marges (en px):</label></dt><dd><input required="required" type='number' name='border'_width></dd></dl><dl><dt><label>couleur par défaut:</label></dt><dd><input required="required" type='color' name="default_color "></dd></dl><dl><dt><label>couleur de l'ombre:</label></dt><dd><input required="required" type=color name="default_shade_color "></dd></dl><dl><dt><label>Afficher des bordures autour du texte ?</label></dt><dd><input required="required" type='checkbox' name='draw_borders' value='yes'>oui<br></dd></dl><dl><dt><label>Écart avec le bord droit/gauche de l'écran:</label></dt><dd><input required="required" type='number' name='gap_x'_x></dd></dl><dl><dt><label>Écart avec le bord haut/bas de l'écran:</label></dt><dd><input required="required" type='number' name='gap_y'></dd></dl>
+</div>
+</form>
+
+<div id='form2'>
+	<dl>
+		<dt>
+			<label>largeur max de la fenetre (en px)</label>
+		</dt>
+		<dd>
+			<input required="required" type='number' name='maximum_width'>
+		</dd>
+	</dl>
+</div>
+
+<div id='form3'>
+</div>
+
+<div id='form4'>
+</div>
+
+
+
+<input type='button' id='previous' value='precedent'>
+<input type='button' id='next' value='suivant'>
+</fieldset>
+<textarea rows='20' cols='50' id='result'></textarea>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script><script src="conkyrc.js"></script>
