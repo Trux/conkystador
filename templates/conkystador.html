@@ -4,12 +4,8 @@
 <fieldset>
 <div id='form1'>
 <form>
-<dl><dt><label>largeur de la bordure (en px)</label></dt><dd><input required="required" type='number' name=border_margin></dd></dl><dl><dt><label>largeur des marges (en px):</label></dt><dd><input required="required" type='number' name='border'_width></dd></dl><dl><dt><label>couleur par défaut:</label></dt><dd><input required="required" type='color' name="default_color "></dd></dl><dl><dt><label>couleur de l'ombre:</label></dt><dd><input required="required" type=color name="default_shade_color "></dd></dl><dl><dt><label>Afficher des bordures autour du texte ?</label></dt><dd><input required="required" type='checkbox' name='draw_borders' value='yes'>oui<br></dd></dl><dl><dt><label>Écart avec le bord droit/gauche de l'écran:</label></dt><dd><input required="required" type='number' name='gap_x'_x></dd></dl><dl><dt><label>Écart avec le bord haut/bas de l'écran:</label></dt><dd><input required="required" type='number' name='gap_y'></dd></dl>
-</div>
-</form>
-
-<div id='form2'>
-	<dl>
+<dl><dt><label>largeur de la bordure (en px)</label></dt><dd><input required="required" type='number' name=border_margin></dd></dl><dl><dt><label>largeur des marges (en px):</label></dt><dd><input required="required" type='number' name='border'_width></dd></dl><dl><dt><label>couleur par défaut:</label></dt><dd><input required="required" type='color' name="default_color "></dd></dl><dl><dt><label>couleur de l'ombre:</label></dt><dd><input required="required" type=color name="default_shade_color "></dd></dl><dl><dt><label>Afficher des bordures autour du texte ?</label></dt><dd><input required="required" type='checkbox' name='draw_borders' value='yes'>oui</dd></dl><dl><dt><label>Écart avec le bord droit/gauche de l'écran:</label></dt><dd><input required="required" type='number' name='gap_x'_x></dd></dl><dl><dt><label>Écart avec le bord haut/bas de l'écran:</label></dt><dd><input required="required" type='number' name='gap_y'></dd></dl>
+<dl>
 		<dt>
 			<label>largeur max de la fenetre (en px)</label>
 		</dt>
@@ -17,7 +13,40 @@
 			<input required="required" type='number' name='maximum_width'>
 		</dd>
 	</dl>
+	<dl>
+		<dt>
+			<label>Taille minimale de la fenêtre</label>
+		</dt>
+		<dd>
+			<input required="required" type='number' name='minimum_size'>
+		</dd>
+	</dl>
+	<dl>
+		<dt>
+			<label>Nombre total de rafraîchissement de Conky (0 infini)</label>
+		</dt>
+		<dd>
+			<input required="required" type='number' name='minimum_size'>
+		</dd>
+	</dl>
+	<input id='Text' name='' value='TEXT'>
+</form>
 </div>
+
+<div id='form2'>
+	<h2>Afficher:</h2>
+	<dl><dt><label>le swap utilisé ?</label></dt><dd><input required="required" type='checkbox' value='swap'>oui</dd></dl>
+
+	<dl><dt><label>le nom du systeme ?</label></dt><dd><input required="required" type='checkbox' value='$nodename - $sysname $kernel'>oui</dd></dl>
+
+	<dl><dt><label>l'uptime' ?</label></dt><dd><input required="required" type='checkbox' value='$uptime'>oui</dd></dl>
+
+	<dl><dt><label>le nom du systeme ?</label></dt><dd><input required="required" type='checkbox' value='$nodename - $sysname $kernel'>oui</dd></dl>
+
+	<dl><dt><label>les processus en cours ?</label></dt><dd><input required="required" type='checkbox' value='Processus : $processes En cours : $running_processes'>oui</dd></dl>
+</div>
+
+
 
 <div id='form3'>
 </div>
